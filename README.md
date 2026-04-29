@@ -19,6 +19,7 @@ Radio – Advertising spend on Radio
 Newspaper – Advertising spend on Newspaper
 Target:
 Sales – Product sales
+
 ⚙️ Workflow
 1. Data Preprocessing
 Loaded dataset using pandas
@@ -40,14 +41,17 @@ Applied StandardScaler for normalization
 6. Model Building
 Used Linear Regression (sklearn)
 Trained model on scaled data
+
 📈 Key Insight
 Advertising channels (especially TV & Radio) show strong influence on sales.
 Linear Regression helps quantify this relationship effectively.
+
 🛠️ Tech Stack
 Python
 pandas, numpy
 matplotlib, seaborn
 scikit-learn
+
 🚀 Outcome
 
 A predictive model that estimates sales based on marketing spend, useful for:
