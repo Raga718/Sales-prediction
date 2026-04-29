@@ -16,29 +16,4 @@ Target:
 Sales – Product sales
 
 
-⚙️ Project Workflow
-1. Data Preprocessing
-Loaded dataset using pandas
-Removed unnecessary column (Unnamed: 0)
-Checked for missing values
-2. Exploratory Data Analysis (EDA)
-Pairplot using seaborn
-Correlation heatmap
-3. Feature Selection
-Input (X): TV, Radio, Newspaper
-Output (y): Sales
-4. Train-Test Split
-80% training, 20% testing
-5. Data Scaling
-StandardScaler applied
-6. Model Building
-Linear Regression using scikit-learn
-📈 Key Insights
-TV advertising has the strongest impact on sales
-Radio also contributes significantly
-Newspaper has lower influence
-🛠️ Tech Stack
-Python
-pandas, numpy
-matplotlib, seaborn
-scikit-learn
+The project includes several visualizations to better understand the relationship between advertising spend and sales. A pairplot is used to observe individual relationships between features like TV, Radio, and Newspaper with Sales, showing clear positive trends especially for TV and Radio. A correlation heatmap highlights the strength of relationships between variables, where TV shows the highest correlation with Sales. These graphs help in identifying important features and validating assumptions before building the Linear Regression model.
